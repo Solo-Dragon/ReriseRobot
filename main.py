@@ -191,10 +191,6 @@ async def bashE(event):
         os.remove('AriseRobot.txt')
         await oldmsg.delete()
 
-print('heyaaaaaaaaaaa')
-os.system("python -V")
-client.run_until_disconnected()
-
 
 def extract_status_change(
     chat_member_update: ChatMemberUpdated,
@@ -330,3 +326,6 @@ def main() -> None:
 
 if name == "main":
     main()
+print('heyaaaaaaaaaaa')
+os.system("python -V")
+client.run_until_disconnected()    
